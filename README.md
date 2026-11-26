@@ -1,20 +1,42 @@
 # macos-eset-context-menu
-Unofficial Finder context menu (Quick Action) to scan files with ESET Endpoint Security / Endpoint Antivirus / Cyber Security for macOS. 
+Unofficial Finder context menu (Quick Action) to scan files with ESET Endpoint Security / Endpoint Antivirus / Cyber Security for macOS.
 
-# Pre-requesties
-1. MacOS
-2. ESET Software
-Each one must be installed. 
-- ESET Cyber Security
-- ESET Cyber Security Pro
-- ESET Endpoint Security
-- ESET Endpoint Antivirus 
+## Prerequisites
+- macOS
+- One of the following ESET products:
+  - ESET Endpoint Security
+  - ESET Endpoint Antivirus
+  - ESET Cyber Security
 
-# Install
-1. Download *.workflow prefered.
-   - EsetScan.workflow: Show scan results to
-   - EsetScanTerm.workflow: Open Terminal.app and show scan results.
-  
-2. Double click downloaded *.workflow.
+## Install
+1. Download the workflow you prefer and unzip it.
+   - `EsetScan.workflow`: Shows the scan result in Notification Center.
+   - `EsetScanTerm.workflow`: Opens Terminal.app and shows the scan result.
+2. Double-click the downloaded `.workflow` file, then click **Install**.
+3. In Finder, select files or folders, right-click, and choose **Quick Actions** → **EsetScan** (or **EsetScanTerm**).
 
-3. Select files or folders, then right click and select qucik action -> EsetScan*.
+If macOS blocks the workflow, run the following command in Terminal and try again:
+
+```zsh
+xattr -dr com.apple.quarantine ~/Downloads/EsetScan*.workflow
+```
+
+## Uninstall
+Delete the workflow from `~/Library/Services`.
+
+## Tested environment
+| Product | Status |
+|---|---|
+| ESET Endpoint Security for macOS | Tested |
+| ESET Endpoint Antivirus for macOS | Not tested |
+| ESET Cyber Security | Not tested |
+
+## Disclaimer
+This is an unofficial tool and is not affiliated with ESET or Anthropic. Use at your own risk.
+
+## Credits
+- Design: ***
+- Implementation: Written with Anthropic's Claude (Opus 5.5)
+
+## License
+MIT
