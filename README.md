@@ -2,7 +2,7 @@
 Unofficial Finder context menu (Quick Action) to scan files with ESET Endpoint Security / Endpoint Antivirus / Cyber Security for macOS.
 
 ## Prerequisites
-- macOS
+- MacOS
 - One of the following ESET products:
   - ESET Endpoint Security
   - ESET Endpoint Antivirus
@@ -24,18 +24,11 @@ xattr -dr com.apple.quarantine ~/Downloads/EsetScan*.workflow
 ## Uninstall
 Delete the workflow from `~/Library/Services`.
 
-## Tested environment
-| Product | Status |
-|---|---|
-| ESET Endpoint Security for macOS | Tested |
-| ESET Endpoint Antivirus for macOS | Not tested |
-| ESET Cyber Security | Not tested |
-
 ## Disclaimer
 This is an unofficial tool and is not affiliated with ESET or Anthropic. Use at your own risk.
 
 ## Credits
-- Design: ***
+- Design: Y.H.
 - Implementation: Written with Anthropic's Claude (Opus 5.5)
 
 ## License
