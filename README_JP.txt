@@ -10,8 +10,8 @@ ESET Endpoint Security / Endpoint Antivirus / Cyber Security for macOS でファ
 
 ## インストール
 1. 使いたいワークフローをダウンロードします。
-   - `EsetScan.workflow`:検査結果を通知センターに表示します。
-   - `EsetScanTerm.workflow`:ターミナルを開いて検査結果を表示します。
+   - `EsetScan.workflow`: 検査結果をダイアログで表示します。
+   - `EsetScanTerm.workflow`: ターミナルを開いて検査結果を表示します。
 2. ダウンロードした `.workflow.zip` ファイルをダブルクリックして展開します。
 3. `.workflow` ファイルをダブルクリックし、**インストール** をクリックします。
 4. Finder でファイルまたはフォルダを選択して右クリックし、**クイックアクション** → **EsetScan**(または **EsetScanTerm**)を選びます。
