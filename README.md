@@ -10,10 +10,10 @@ Unofficial Finder context menu (Quick Action) to scan files with ESET Endpoint S
 
 ## Install
 1. Download the workflow you prefer.
-   - `EsetScan.workflow`: Shows the scan result in Notification Center.
+   - `EsetScan.workflow`: Shows the scan result in a dialog.
    - `EsetScanTerm.workflow`: Opens Terminal.app and shows the scan result.
 2. Double-click the downloaded `.workflow.zip` file to unzip it.
-3. Double-click the `.workflow` file, then click **Install**. 
+3. Double-click the `.workflow` file, then click **Install**.
 4. In Finder, select files or folders, right-click, and choose **Quick Actions** → **EsetScan** (or **EsetScanTerm**).
 
 If macOS blocks the workflow, run the following command in Terminal and try again:
